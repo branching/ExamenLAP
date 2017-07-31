@@ -1,0 +1,1 @@
+c:\users\elkin\documents\visual studio 2013\Projects\AnalizadorTexto\AnalizadorTexto\bin\Debug\AnalizadorTexto.exe.config

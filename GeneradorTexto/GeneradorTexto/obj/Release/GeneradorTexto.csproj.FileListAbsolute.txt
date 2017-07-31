@@ -1,0 +1,6 @@
+C:\Users\Elkin\documents\visual studio 2013\Projects\GeneradorTexto\GeneradorTexto\bin\Release\GeneradorTexto.exe.config
+C:\Users\Elkin\documents\visual studio 2013\Projects\GeneradorTexto\GeneradorTexto\bin\Release\GeneradorTexto.exe
+C:\Users\Elkin\documents\visual studio 2013\Projects\GeneradorTexto\GeneradorTexto\bin\Release\GeneradorTexto.pdb
+C:\Users\Elkin\documents\visual studio 2013\Projects\GeneradorTexto\GeneradorTexto\obj\Release\GeneradorTexto.exe
+C:\Users\Elkin\documents\visual studio 2013\Projects\GeneradorTexto\GeneradorTexto\obj\Release\GeneradorTexto.pdb
+C:\Users\Elkin\documents\visual studio 2013\Projects\GeneradorTexto\GeneradorTexto\obj\Release\GeneradorTexto.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\Elkin\documents\visual studio 2013\Projects\AnalizadorTexto\AnalizadorTexto\bin\Release\AnalizadorTexto.exe.config
+C:\Users\Elkin\documents\visual studio 2013\Projects\AnalizadorTexto\AnalizadorTexto\bin\Release\AnalizadorTexto.exe
+C:\Users\Elkin\documents\visual studio 2013\Projects\AnalizadorTexto\AnalizadorTexto\bin\Release\AnalizadorTexto.pdb
+C:\Users\Elkin\documents\visual studio 2013\Projects\AnalizadorTexto\AnalizadorTexto\bin\Release\Newtonsoft.Json.dll
+C:\Users\Elkin\documents\visual studio 2013\Projects\AnalizadorTexto\AnalizadorTexto\bin\Release\Newtonsoft.Json.xml
+C:\Users\Elkin\documents\visual studio 2013\Projects\AnalizadorTexto\AnalizadorTexto\obj\Release\AnalizadorTexto.exe
+C:\Users\Elkin\documents\visual studio 2013\Projects\AnalizadorTexto\AnalizadorTexto\obj\Release\AnalizadorTexto.pdb
