@@ -1,9 +1,22 @@
 Cordial saludo!
 
-La solución que se implementó consiste de dos solutions de .NET (VS2013 framework 4.7):
+La soluciÃ³n que se implementÃ³ consiste de dos solutions de .NET (VS2013 framework 4.7):
 
-1) AnalizadorTexto: Es un Solution con un único proyecto del mismo. Este es el servidor que deja a disposición una API REST/json que procesa unicamente las peticiones POST. Es una aplicación de consola muy liviana y se basa principalmente en el objeto HttpListener el cual escucha las peticiones de los clientes, en un hilo de procesamiento diferente al principal. Cada vez que llega un POST el procesamiento del POST se realiza en un hilo aparte. De ésta manera la aplicación realiza el procesamiento de forma concurrente y comprende: extraer la cadena json del request, deserializar el json (se usa la librería Newtonsoft.Json.dll), hallar los datos estadísticos y alistar el texto de entrada más las estadísticas para ser guardado en un archivo del disco duro. Por último, la estratégia de grabación en el disco duro consiste en que durante la carga de la aplicación se abre el archivo y se mantiene abierto durante todo el tiempo de operación de la API, pero para grabar solo puede acceder un hilo de procesamiento a la vez. Cuando se inicia la aplicación, pregunta al usuario por la url donde va a quedar la API y el puerto. Si el usuario no ingresa datos (solo da Enter) la API queda en la url http://localhost:8080
+1) AnalizadorTexto: Es un Solution con un Ãºnico proyecto del mismo. Este es el servidor que deja a disposiciÃ³n una API REST/json que 
+  procesa unicamente las peticiones POST. Es una aplicaciÃ³n de consola muy liviana y se basa principalmente en el objeto HttpListener el 
+  cual escucha las peticiones de los clientes, en un hilo de procesamiento diferente al principal. Cada vez que llega un POST el 
+  procesamiento del POST se realiza en un hilo aparte. De Ã©sta manera la aplicaciÃ³n realiza el procesamiento de forma concurrente y 
+  comprende: extraer la cadena json del request, deserializar el json (se usa la librerÃ­a Newtonsoft.Json.dll), hallar los datos 
+  estadÃ­sticos y alistar el texto de entrada mÃ¡s las estadÃ­sticas para ser guardado en un archivo del disco duro. Por Ãºltimo, la 
+  estratÃ©gia de grabaciÃ³n en el disco duro consiste en que durante la carga de la aplicaciÃ³n se abre el archivo y se mantiene abierto 
+  durante todo el tiempo de operaciÃ³n de la API, pero para grabar solo puede acceder un hilo de procesamiento a la vez. Cuando se inicia 
+  la aplicaciÃ³n, pregunta al usuario por la url donde va a quedar la API y el puerto. Si el usuario no ingresa datos (solo da Enter) la 
+  API queda en la url http://localhost:8080.
 
-2) GeneradorTexto: Es un Solution con un único proyecto del mismo. Esta es la aplicación cliente y también es de tipo consola. Consiste principalmente de un temporizador a intervalos de un milisegundo, que envia un request POST al servidor con un texto previamente construido al momento del arranque de la aplicación logrando mayor performance. Cuando se inicia la aplicación, pregunta al usuario por la url de la API y el puerto. Si el usuario no ingresa datos (solo da Enter) la API queda en la url http://localhost:8080. También pregunta por la cantidad de clientes que se desean instanciar, pudiendo llegar hasta un máximo de 20.
+2) GeneradorTexto: Es un Solution con un Ãºnico proyecto del mismo. Esta es la aplicaciÃ³n cliente y tambiÃ©n es de tipo consola. Consiste 
+  principalmente de un temporizador a intervalos de un milisegundo, que envia un request POST al servidor con un texto previamente 
+  construido al momento del arranque de la aplicaciÃ³n logrando mayor performance. Cuando se inicia la aplicaciÃ³n, pregunta al usuario por 
+  la url de la API y el puerto. Si el usuario no ingresa datos (solo da Enter) la API queda en la url http://localhost:8080. TambiÃ©n 
+  pregunta por la cantidad de clientes que se desean instanciar, pudiendo llegar hasta un mÃ¡ximo de 20.
 
 Saludos!
